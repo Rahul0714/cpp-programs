@@ -1,0 +1,39 @@
+10/06/2022
+1. greatest amongst three
+2. prime or not
+3. prime or not till n
+4. Hello World
+5. odd or even
+6. sum upto n
+7. print till positive (while)
+8. print till positive (do while)
+9. print odd numbers
+10. don't print divisible by 3
+11. switch hello in different languages
+12. simple calculator
+13. fizzbuzz
+14. patterns  
+	14.1 rectangular
+	14.2 hollow reactangle
+	14.3 inverted half pyramid
+	14.4 inverted half pyramid after 180
+	14.5 half pyramid using numbers
+	14.6 Floyd's triangle
+	14.7 butterfly pattern
+	14.8 palindrome triangle
+	14.9 pascal triangle
+15. Primefunction
+16. Fibonacci
+17. Amstrong
+18. ncr
+19. Factorial
+20. Sum of first n
+21. pythagorian triplet
+22. conversions
+	22.1 2->8
+	22.1 8->10
+	22.1 16->10
+	22.1 10->2
+	22.1 10->8
+	22.1 10->16
+23. add two binary numbers
