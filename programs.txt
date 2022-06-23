@@ -1,4 +1,7 @@
 10/06/2022
+
+*******Basic*******
+
 1. greatest amongst three
 2. prime or not
 3. prime or not till n
@@ -37,3 +40,10 @@
 	22.1 10->8
 	22.1 10->16
 23. add two binary numbers
+
+22/06/2022
+
+*******Arrays*******
+
+1. taking input in Arrays
+2. Min and Max in arrays
