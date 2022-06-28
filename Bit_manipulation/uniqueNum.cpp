@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int findXor(int arr[], int n){
+int findUnique(int arr[], int n){
     int xorSum=0;
     for(int i=0;i<n;i++){
         xorSum=xorSum^arr[i];
@@ -16,6 +16,6 @@ int main()
     int arr[n];
     for(int i=0;i<n;i++)
         cin>>arr[i];
-    cout<<findXor(arr,n)<<endl;
+    cout<<findUnique(arr,n)<<endl;
     return 0;
 }
