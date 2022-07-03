@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
 
-void reverse(string str){
-    if(str.length()==0)
+void reverse(string s){
+    if(s.length()==0)
         return;
-    reverse(str.substr(1));
-    cout<<str[0]<<endl;
+    reverse(s.substr(1));
+    cout<<s[0]<<" ";
 }
 
 int main()
 {
-    string str="";
-    cin>>str;
-    reverse(str);
+    string s;
+    cin>>s;
+    reverse(s);
     return 0;
 }

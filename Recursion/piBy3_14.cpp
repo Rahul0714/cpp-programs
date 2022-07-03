@@ -1,22 +1,21 @@
 #include<iostream>
 using namespace std;
 
-void piBy3_14(string str){
-    if(str.length()==0)
+void update(string s){
+    if(s.length()==0)
         return;
-    if(str[0]=='p' && str[1]=='i'){
-        cout<<"3.14";
-        piBy3_14(str.substr(2));
+    else if(s[0]=='p' && s[1]=='i'){
+        cout<<"3.14 ";
+        update(s.substr(2));
     }else{
-        cout<<str[0];
-        piBy3_14(str.substr(1));
+        cout<<s[0]<<" ";
+        update(s.substr(1));
     }
 }
 
 int main()
 {
-    string str;
-    cin>>str;
-    piBy3_14(str);
+    string s="pippxxppiipi";
+    update(s);
     return 0;
 }
