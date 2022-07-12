@@ -1,0 +1,12 @@
+(1)
+
+1.  Why make input small?
+    -> we don't make input small delibrately, it happens automatically due to some decisions we take.
+    ham input chota kar nahi rahe hai, wo apneaap ho ja raha hai
+2.  Recursion-> choices and decision
+3.  Recursive Tree
+    -> Recursive Tree banali problem vahi pe khatam
+    Input-Output Method
+    no of branches=no of choices
+
+ (2) Recursion is everywhere   
