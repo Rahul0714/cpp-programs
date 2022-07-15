@@ -1,0 +1,5 @@
+full binary tree-> 0 or 2 children
+complete binary tree-> all levels are filled except last (it should be on as left as possible)
+perfect binary tree-> all leaf nodes at same level
+balanced binary tree-> height max logn (n nodes)
+degenerate tree-> skewed tree
