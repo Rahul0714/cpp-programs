@@ -21,6 +21,17 @@ int maxDepth(node *root){
     return 1+max(lh,rh);
 }
 
+int balanced(node* root){
+    if(root==NULL)
+        return 0;
+    int lh=balanced(root->left);
+    if(lh==-1) return -1;
+    int rh=balanced(root->right);
+    if(rh==-1) return -1;
+    if(abs(lh-rh)>1) return -1;
+    return 1+max(lh,rh);
+}
+
 int main()
 {
     struct node* root=new node(1);
@@ -29,7 +40,8 @@ int main()
     root->left->left=new node(4);
     root->left->right=new node(5);
     root->left->right->right=new node(6);
-    int res=maxDepth(root);
+    //int res=maxDepth(root);
+    int res=balanced(root);
     res==-1?cout<<"Unbalanced":cout<<"Balanced"<<endl;
     return 0;
 }
